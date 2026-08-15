@@ -1,13 +1,14 @@
 {
   "name": "hadowa-whatsapp-render",
-  "version": "1.0.0",
-  "description": "Hadowa Water Bill WhatsApp Auto-reply Bot on Render",
+  "version": "2.0.0",
+  "description": "Hadowa Water Bill Personal WhatsApp Bot on Render",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.19",
     "express": "^4.19.2",
-    "twilio": "^5.0.0"
+    "qrcode": "^1.5.4"
   }
 }
